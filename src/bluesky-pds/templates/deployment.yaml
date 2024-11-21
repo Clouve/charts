@@ -1,0 +1,105 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "bluesky-pds.fullname" . }}
+  labels:
+    {{- include "bluesky-pds.labels" . | nindent 4 }}
+spec:
+  strategy:
+    type: Recreate
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "bluesky-pds.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      {{- with .Values.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "bluesky-pds.selectorLabels" . | nindent 8 }}
+    spec:
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            {{- if .Values.existingSecret }}
+            - name: PDS_ADMIN_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.existingSecret }}
+                  key: clouve-password
+            {{- else }}
+            - name: PDS_ADMIN_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ include "bluesky-pds.fullname" . }}-secret"
+                  key: clouve-password
+            {{- end }}
+            - name: PDS_JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ include "bluesky-pds.fullname" . }}-secret"
+                  key: jwt-secret
+            - name: PDS_PLC_ROTATION_KEY_K256_PRIVATE_KEY_HEX
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ include "bluesky-pds.fullname" . }}-secret"
+                  key: plc-rotation-key
+            - name: PDS_HOSTNAME
+              value: {{ .Values.pdsHostname }}
+            - name: PDS_DATA_DIRECTORY
+              value: "{{ .Values.pdsDataDir }}"
+            - name: PDS_BLOBSTORE_DISK_LOCATION
+              value: "{{ .Values.pdsBlobstoreDiskLocation }}"
+            - name: PDS_DID_PLC_URL
+              value: "{{ .Values.pdsDidPlcUrl }}"
+            - name: PDS_BSKY_APP_VIEW_URL
+              value: "{{ .Values.pdsBskyAppViewUrl }}"
+            - name: PDS_BSKY_APP_VIEW_DID
+              value: "{{ .Values.pdsBskyAppViewDid }}"
+            - name: PDS_REPORT_SERVICE_URL
+              value: "{{ .Values.pdsReportSvcUrl }}"
+            - name: PDS_REPORT_SERVICE_DID
+              value: "{{ .Values.pdsReportSvcDid }}"
+            - name: PDS_CRAWLERS
+              value: "{{ .Values.pdsCrawlers }}"
+            - name: PDS_INVITE_REQUIRED
+              value: "0"
+            - name: LOG_ENABLED
+              value: "0"
+          ports:
+            - name: http
+              containerPort: {{ .Values.service.port }}
+              protocol: TCP
+          volumeMounts:
+            - name: data
+              mountPath: {{ .Values.pdsDataDir }}
+          livenessProbe:
+            {{- toYaml .Values.livenessProbe | nindent 12 }}
+          readinessProbe:
+            {{- toYaml .Values.readinessProbe | nindent 12 }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: "{{ include "bluesky-pds.fullname" . }}-data"
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}

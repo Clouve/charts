@@ -1,0 +1,18 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: "{{ include "bluesky-pds.fullname" . }}-data"
+  labels:
+    {{- include "bluesky-pds.labels" . | nindent 4 }}
+spec:
+  accessModes:
+  {{- if not (empty .Values.persistence.accessModes) }}
+  {{- range .Values.persistence.accessModes }}
+    - {{ . | quote }}
+  {{- end }}
+  {{- else }}
+    - ReadWriteOnce
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.persistence.size | quote }}
