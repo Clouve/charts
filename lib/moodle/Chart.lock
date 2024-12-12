@@ -1,9 +1,9 @@
 dependencies:
 - name: mariadb
-  repository: https://marketplace.azurecr.io/helm/v1/repo
-  version: 11.3.1
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 20.1.1
 - name: common
-  repository: https://marketplace.azurecr.io/helm/v1/repo
-  version: 2.0.3
-digest: sha256:a0852f0e550f0a5b44e0ec8f07c4787d0ae524f9c335c70301fad1358f42dd25
-generated: "2022-10-03T12:18:34.754806976Z"
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 2.28.0
+digest: sha256:bbb68797bb44f259e8119037c81b4e3b197f075ad4608e72e6e49cab3f75e264
+generated: "2024-12-10T17:17:15.772268+01:00"
