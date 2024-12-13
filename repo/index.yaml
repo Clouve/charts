@@ -2,10 +2,21 @@ apiVersion: v1
 entries:
   bluesky-pds:
   - apiVersion: v2
-    appVersion: 0.4.67
-    created: "2024-11-19T20:37:28.766424-08:00"
+    appVersion: 0.4.74
+    created: "2024-12-12T14:22:56.439434-08:00"
     description: A Helm chart for Bluesky PDS
-    digest: 5e229a874f29cfe6db493bc1fa40be9fdc9b7ceb12b87e7dd5cb22bafd0f7ed4
+    digest: 6bcd44a618e653af364da8a44376ddae135a04ce6624b191e539d0b24bb6a0ed
+    icon: https://cdn.demo.clouve.com/self-service/bluesky-pds/.service-config/icon.png
+    name: bluesky-pds
+    type: application
+    urls:
+    - /repo/bluesky-pds-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.4.67
+    created: "2024-12-12T14:22:56.439269-08:00"
+    description: A Helm chart for Bluesky PDS
+    digest: f10388d452714ea1595bda4a64ee8f5a652165bd107591c4b210144687e554ae
     icon: https://cdn.demo.clouve.com/self-service/bluesky-pds/.service-config/icon.png
     name: bluesky-pds
     type: application
@@ -14,7 +25,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.4.67
-    created: "2024-11-19T20:37:28.766238-08:00"
+    created: "2024-12-12T14:22:56.439091-08:00"
     description: A Helm chart for Bluesky PDS
     digest: 1ee37f318c001f4d1201b8e6d663b3ef3db6cc3fe6c6fa3a84ae24fc3b5a9b66
     icon: https://cdn.demo.clouve.com/self-service/bluesky-pds/.service-config/icon.png
@@ -25,7 +36,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.4.67
-    created: "2024-11-19T20:37:28.766047-08:00"
+    created: "2024-12-12T14:22:56.438909-08:00"
     description: A Helm chart for Bluesky PDS
     digest: 889b56d779306fd4e62ebde28e4ee90e6efb255bcd840fb6d3404cfa24959ad9
     icon: https://cdn.demo.clouve.com/self-service/bluesky-pds/.service-config/icon.png
@@ -33,6 +44,329 @@ entries:
     type: application
     urls:
     - /repo/bluesky-pds-0.1.0.tgz
+    version: 0.1.0
+  canvas:
+  - apiVersion: v2
+    appVersion: 2024.12.10
+    created: "2024-12-12T14:22:56.510857-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 82b6bad9631b05d791a39294905781d783010fd53bc4387a0d9b124f57ce956a
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 2024.12.10
+    created: "2024-12-12T14:22:56.505778-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 4a0b3ab7edfbf2eb6d418a1254bc064dd0e4c673f5fabc4319da4de0cf2cc653
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 2024.12.09
+    created: "2024-12-12T14:22:56.500749-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: be879e95880bbd8b8d16542b27c08e974b620117397e768a491e0d3d186f4eb7
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 2024.12.09
+    created: "2024-12-12T14:22:56.495719-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 9799d8fb8be3926d1835e987c71d9dc95574be7c8d8e1dcac921830899f88ce0
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 2024.12.09
+    created: "2024-12-12T14:22:56.490607-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 455b52a0ef686ee1e1179665bc641ace6dd2f64c473a991aedeff02102df40a6
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 2024.12.09
+    created: "2024-12-12T14:22:56.485617-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: e316c6ee66ee4f2a4eb00067c63bfa1c04bf1ac57d5b27146bab33b4ac2f8f5a
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 2024.12.09
+    created: "2024-12-12T14:22:56.480526-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: e2272bc680ed94159168de65e2ccc64d55e40645670f69804949f84580bdf31d
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.475384-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: b5943b5313ebf8272f628aadaaf590d3c7494a409938d06179b24aacf025b7bf
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.470467-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: ba5c02ed3493912d6d8eaf93340ac47aab104dffdc71d15ead21e58b47ffd7de
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.465294-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 719cd51adee3377020bd23708ded839334a615acb8bfd0aa4750283ce6ac5864
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.460197-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 93346d062d250550215efcd53647e7cc6885b0e16e82ed41e3e334c241e5ed36
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.455062-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 3036992fd965b6f7dbbe419905d958ed231c6b8f3ef9482d5ed4258d5c299c5c
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.449759-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: 55a374be773888a3cb7de3dadd3f338667f406f6f6bdf84c0a2ea67571868090
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 2024.12.08
+    created: "2024-12-12T14:22:56.44468-08:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.x.x
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.x.x
+    description: Canvas LMS (Learning Management System) is a cloud-based educational
+      platform designed for schools, colleges, universities, and businesses to manage
+      and deliver online learning. Developed by Instructure, it provides tools for
+      creating, sharing, and grading assignments, facilitating communication, and
+      integrating external applications. Canvas supports features like video conferencing,
+      mobile access, analytics, and third-party app integrations, making it a flexible
+      solution for both traditional and online learning environments.
+    digest: d0191bed6a79aa7ba0ff3c2f660029f345ed17bb1efc8d4bfee4d6af056a2a8c
+    name: canvas
+    type: application
+    urls:
+    - /repo/canvas-0.1.0.tgz
     version: 0.1.0
   dokuwiki:
   - annotations:
@@ -47,7 +381,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20240206.1.0
-    created: "2024-11-19T20:37:28.778855-08:00"
+    created: "2024-12-12T14:22:56.519265-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -88,7 +422,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20240206.1.0
-    created: "2024-11-19T20:37:28.777389-08:00"
+    created: "2024-12-12T14:22:56.518243-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -129,7 +463,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20240206.1.0
-    created: "2024-11-19T20:37:28.77604-08:00"
+    created: "2024-12-12T14:22:56.517123-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -170,7 +504,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20240206.1.0
-    created: "2024-11-19T20:37:28.774624-08:00"
+    created: "2024-12-12T14:22:56.516137-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -211,7 +545,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20230404.1.0
-    created: "2024-11-19T20:37:28.773054-08:00"
+    created: "2024-12-12T14:22:56.51491-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -252,7 +586,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20230404.1.0
-    created: "2024-11-19T20:37:28.771846-08:00"
+    created: "2024-12-12T14:22:56.514092-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -293,7 +627,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20230404.1.0
-    created: "2024-11-19T20:37:28.770589-08:00"
+    created: "2024-12-12T14:22:56.513295-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -327,7 +661,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20230404.1.0
-    created: "2024-11-19T20:37:28.769411-08:00"
+    created: "2024-12-12T14:22:56.512492-08:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -361,7 +695,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20220731.1.0
-    created: "2024-11-19T20:37:28.76812-08:00"
+    created: "2024-12-12T14:22:56.511698-08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -396,6 +730,98 @@ entries:
       category: CMS
       images: |
         - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r3
+        - name: drupal
+          image: docker.io/bitnami/drupal:11.0.9-debian-12-r1
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 11.0.9
+    created: "2024-12-12T14:22:56.552968-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Drupal is one of the most versatile open source content management
+      systems in the world. It is pre-configured with the Ctools and Views modules,
+      Drush and Let's Encrypt auto-configuration support.
+    digest: 3e86dc48e507c21b83aea29450e1bdb17023f04f6d087e9f6dfaa8f34ebd7779
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/drupal/img/drupal-stack-220x234.png
+    keywords:
+    - drupal
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: drupal
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/drupal
+    urls:
+    - /repo/drupal-21.1.0.tgz
+    version: 21.1.0
+  - annotations:
+      category: CMS
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r3
+        - name: drupal
+          image: docker.io/bitnami/drupal:11.0.9-debian-12-r1
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 11.0.9
+    created: "2024-12-12T14:22:56.550016-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Drupal is one of the most versatile open source content management
+      systems in the world. It is pre-configured with the Ctools and Views modules,
+      Drush and Let's Encrypt auto-configuration support.
+    digest: 7fea2b809ebedda7537ccdd64a94b9ebfc33685bf8e9cd8a093c19cf0481c886
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/drupal/img/drupal-stack-220x234.png
+    keywords:
+    - drupal
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: drupal
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/drupal
+    urls:
+    - /repo/drupal-21.0.4.tgz
+    version: 21.0.4
+  - annotations:
+      category: CMS
+      images: |
+        - name: apache-exporter
           image: docker.io/bitnami/apache-exporter:1.0.8-debian-12-r6
         - name: drupal
           image: docker.io/bitnami/drupal:10.3.1-debian-12-r8
@@ -404,7 +830,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.3.1
-    created: "2024-11-19T20:37:28.809662-08:00"
+    created: "2024-12-12T14:22:56.547232-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -450,7 +876,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.2.6
-    created: "2024-11-19T20:37:28.80703-08:00"
+    created: "2024-12-12T14:22:56.544791-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -496,7 +922,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.2.6
-    created: "2024-11-19T20:37:28.804186-08:00"
+    created: "2024-12-12T14:22:56.542089-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -542,7 +968,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.2.4
-    created: "2024-11-19T20:37:28.80136-08:00"
+    created: "2024-12-12T14:22:56.539599-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -588,7 +1014,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.1.6
-    created: "2024-11-19T20:37:28.798537-08:00"
+    created: "2024-12-12T14:22:56.536804-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -634,7 +1060,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.1.5
-    created: "2024-11-19T20:37:28.795772-08:00"
+    created: "2024-12-12T14:22:56.534339-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -680,7 +1106,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.1.4
-    created: "2024-11-19T20:37:28.792923-08:00"
+    created: "2024-12-12T14:22:56.531738-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -726,7 +1152,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.1.4
-    created: "2024-11-19T20:37:28.790032-08:00"
+    created: "2024-12-12T14:22:56.529415-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -765,7 +1191,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.0.9
-    created: "2024-11-19T20:37:28.787296-08:00"
+    created: "2024-12-12T14:22:56.526619-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -804,7 +1230,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.0.7
-    created: "2024-11-19T20:37:28.784492-08:00"
+    created: "2024-12-12T14:22:56.524012-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -843,7 +1269,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 9.4.8
-    created: "2024-11-19T20:37:28.781564-08:00"
+    created: "2024-12-12T14:22:56.521763-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -883,13 +1309,197 @@ entries:
       category: CMS
       images: |
         - name: ghost
+          image: docker.io/bitnami/ghost:5.104.2-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r34
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 5.104.2
+    created: "2024-12-12T14:22:56.592722-08:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - ghost-database
+      version: 12.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Ghost is an open source publishing platform designed to create blogs,
+      magazines, and news sites. It includes a simple markdown editor with preview,
+      theming, and SEO built-in to simplify editing.
+    digest: 06835150193a9780ac6a45e8b6c7fac506bc5689fda47fb1bb925ad2bd242680
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/ghost/img/ghost-stack-220x234.png
+    keywords:
+    - ghost
+    - blog
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: ghost
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/ghost
+    urls:
+    - /repo/ghost-22.1.1.tgz
+    version: 22.1.1
+  - annotations:
+      category: CMS
+      images: |
+        - name: ghost
+          image: docker.io/bitnami/ghost:5.104.1-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 5.104.1
+    created: "2024-12-12T14:22:56.590063-08:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - ghost-database
+      version: 12.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Ghost is an open source publishing platform designed to create blogs,
+      magazines, and news sites. It includes a simple markdown editor with preview,
+      theming, and SEO built-in to simplify editing.
+    digest: 1ea84c79b69041edb22745ff876a2933704809f93e5d743cf82b84b5bc1d2fb3
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/ghost/img/ghost-stack-220x234.png
+    keywords:
+    - ghost
+    - blog
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: ghost
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/ghost
+    urls:
+    - /repo/ghost-22.1.0.tgz
+    version: 22.1.0
+  - annotations:
+      category: CMS
+      images: |
+        - name: ghost
+          image: docker.io/bitnami/ghost:5.104.1-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 5.104.1
+    created: "2024-12-12T14:22:56.58411-08:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - ghost-database
+      version: 12.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Ghost is an open source publishing platform designed to create blogs,
+      magazines, and news sites. It includes a simple markdown editor with preview,
+      theming, and SEO built-in to simplify editing.
+    digest: 906462d0038e328be67b0eef1aec580b9b3634d5eeb7c01d33b80f5aae2c48c7
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/ghost/img/ghost-stack-220x234.png
+    keywords:
+    - ghost
+    - blog
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: ghost
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/ghost
+    urls:
+    - /repo/ghost-22.0.10.tgz
+    version: 22.0.10
+  - annotations:
+      category: CMS
+      images: |
+        - name: ghost
+          image: docker.io/bitnami/ghost:5.104.0-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 5.104.0
+    created: "2024-12-12T14:22:56.587146-08:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - ghost-database
+      version: 12.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Ghost is an open source publishing platform designed to create blogs,
+      magazines, and news sites. It includes a simple markdown editor with preview,
+      theming, and SEO built-in to simplify editing.
+    digest: e4fbaf0b61a4a63af0803e7a05b4cea226d1d3d2c41f691f989aa668bfd7e2bb
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/ghost/img/ghost-stack-220x234.png
+    keywords:
+    - ghost
+    - blog
+    - http
+    - web
+    - application
+    - nodejs
+    - javascript
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: ghost
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/ghost
+    urls:
+    - /repo/ghost-22.0.9.tgz
+    version: 22.0.9
+  - annotations:
+      category: CMS
+      images: |
+        - name: ghost
           image: docker.io/bitnami/ghost:5.89.0-debian-12-r0
         - name: os-shell
           image: docker.io/bitnami/os-shell:12-debian-12-r27
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.89.0
-    created: "2024-11-19T20:37:28.840544-08:00"
+    created: "2024-12-12T14:22:56.581419-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -935,7 +1545,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.82.8
-    created: "2024-11-19T20:37:28.837827-08:00"
+    created: "2024-12-12T14:22:56.578511-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -981,7 +1591,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.82.5
-    created: "2024-11-19T20:37:28.834796-08:00"
+    created: "2024-12-12T14:22:56.57584-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1027,7 +1637,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.80.2
-    created: "2024-11-19T20:37:28.81721-08:00"
+    created: "2024-12-12T14:22:56.559815-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1073,7 +1683,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.73.2
-    created: "2024-11-19T20:37:28.831938-08:00"
+    created: "2024-12-12T14:22:56.57338-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1119,7 +1729,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.70.2
-    created: "2024-11-19T20:37:28.824308-08:00"
+    created: "2024-12-12T14:22:56.5665-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1165,7 +1775,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.66.1
-    created: "2024-11-19T20:37:28.821945-08:00"
+    created: "2024-12-12T14:22:56.564219-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1211,7 +1821,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.65.1
-    created: "2024-11-19T20:37:28.82929-08:00"
+    created: "2024-12-12T14:22:56.570909-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1257,7 +1867,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.65.0
-    created: "2024-11-19T20:37:28.826921-08:00"
+    created: "2024-12-12T14:22:56.568812-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1298,7 +1908,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.50.0
-    created: "2024-11-19T20:37:28.819428-08:00"
+    created: "2024-12-12T14:22:56.561833-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1339,7 +1949,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.44.0
-    created: "2024-11-19T20:37:28.814454-08:00"
+    created: "2024-12-12T14:22:56.557223-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1380,7 +1990,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 5.20.0
-    created: "2024-11-19T20:37:28.812031-08:00"
+    created: "2024-12-12T14:22:56.555165-08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1417,6 +2027,35 @@ entries:
     urls:
     - /repo/ghost-19.1.24.tgz
     version: 19.1.24
+  gibbon:
+  - apiVersion: v2
+    appVersion: 28.0.01
+    created: "2024-12-12T14:22:56.596577-08:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    description: A Helm chart for Kubernetes
+    digest: fed2e9952642da4a5c78d5b6db4e7c6344552586805fe68a1414c866f853e04a
+    name: gibbon
+    type: application
+    urls:
+    - /repo/gibbon-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-12T14:22:56.594815-08:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.x.x
+    description: A Helm chart for Kubernetes
+    digest: 5609ea503b69d580b5a37e77d529bfabc44684dfa1dbb92205792ff5a4161a75
+    name: gibbon
+    type: application
+    urls:
+    - /repo/gibbon-0.1.0.tgz
+    version: 0.1.0
   joomla:
   - annotations:
       category: CMS
@@ -1428,7 +2067,47 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.1.2
-    created: "2024-11-19T20:37:28.865591-08:00"
+    created: "2024-12-12T14:22:56.622403-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 19.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    deprecated: true
+    description: DEPRECATED Joomla! is an award winning open source CMS platform for
+      building websites and applications. It includes page caching, page compression
+      and Let's Encrypt auto-configuration support.
+    digest: 433504b20954da66631a436725be2e25b45c49a8c91e6adf83fefafda9482b3f
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/joomla/img/joomla-stack-220x234.png
+    keywords:
+    - joomla
+    - cms
+    - blog
+    - http
+    - php
+    name: joomla
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/joomla
+    urls:
+    - /repo/joomla-20.0.4.tgz
+    version: 20.0.4
+  - annotations:
+      category: CMS
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.8-debian-12-r6
+        - name: joomla
+          image: docker.io/bitnami/joomla:5.1.2-debian-12-r3
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 5.1.2
+    created: "2024-12-12T14:22:56.61978-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1470,7 +2149,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.1.0
-    created: "2024-11-19T20:37:28.862987-08:00"
+    created: "2024-12-12T14:22:56.617376-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1512,7 +2191,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.0.3
-    created: "2024-11-19T20:37:28.860157-08:00"
+    created: "2024-12-12T14:22:56.61478-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1554,7 +2233,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-11-19T20:37:28.857754-08:00"
+    created: "2024-12-12T14:22:56.612541-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1596,7 +2275,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-11-19T20:37:28.855098-08:00"
+    created: "2024-12-12T14:22:56.610085-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1638,7 +2317,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.4
-    created: "2024-11-19T20:37:28.852844-08:00"
+    created: "2024-12-12T14:22:56.607757-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1680,7 +2359,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.4
-    created: "2024-11-19T20:37:28.850103-08:00"
+    created: "2024-12-12T14:22:56.605634-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1717,7 +2396,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.2
-    created: "2024-11-19T20:37:28.847868-08:00"
+    created: "2024-12-12T14:22:56.603523-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1754,7 +2433,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.0
-    created: "2024-11-19T20:37:28.843224-08:00"
+    created: "2024-12-12T14:22:56.59895-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1791,7 +2470,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 4.2.4
-    created: "2024-11-19T20:37:28.845375-08:00"
+    created: "2024-12-12T14:22:56.601107-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1835,7 +2514,50 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.42.1
-    created: "2024-11-19T20:37:28.891567-08:00"
+    created: "2024-12-12T14:22:56.648251-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - mediawiki-database
+      version: 19.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    deprecated: true
+    description: DEPRECATED MediaWiki is the free and open source wiki software that
+      powers Wikipedia. Used by thousands of organizations, it is extremely powerful,
+      scalable software and a feature-rich wiki implementation.
+    digest: 371b2aeaaea6b2599a5b2e2658b9e30a689621a3c032e5c8f3b005008e62f441
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mediawiki/img/mediawiki-stack-220x234.png
+    keywords:
+    - mediawiki
+    - wiki
+    - http
+    - web
+    - application
+    - php
+    name: mediawiki
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/mediawiki
+    urls:
+    - /repo/mediawiki-21.0.5.tgz
+    version: 21.0.5
+  - annotations:
+      category: Wiki
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.8-debian-12-r6
+        - name: mediawiki
+          image: docker.io/bitnami/mediawiki:1.42.1-debian-12-r3
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.42.1
+    created: "2024-12-12T14:22:56.645916-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1880,7 +2602,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.41.1
-    created: "2024-11-19T20:37:28.888867-08:00"
+    created: "2024-12-12T14:22:56.643234-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1925,7 +2647,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.41.0
-    created: "2024-11-19T20:37:28.885989-08:00"
+    created: "2024-12-12T14:22:56.640877-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1970,7 +2692,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.40.1
-    created: "2024-11-19T20:37:28.883535-08:00"
+    created: "2024-12-12T14:22:56.638264-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2015,7 +2737,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.40.1
-    created: "2024-11-19T20:37:28.880851-08:00"
+    created: "2024-12-12T14:22:56.635863-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2060,7 +2782,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.40.1
-    created: "2024-11-19T20:37:28.878556-08:00"
+    created: "2024-12-12T14:22:56.633624-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2105,7 +2827,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.40.0
-    created: "2024-11-19T20:37:28.875954-08:00"
+    created: "2024-12-12T14:22:56.631175-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2145,7 +2867,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.39.3
-    created: "2024-11-19T20:37:28.873094-08:00"
+    created: "2024-12-12T14:22:56.628999-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2185,7 +2907,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.39.3
-    created: "2024-11-19T20:37:28.868307-08:00"
+    created: "2024-12-12T14:22:56.62452-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2225,7 +2947,7 @@ entries:
       category: Wiki
     apiVersion: v2
     appVersion: 1.38.4
-    created: "2024-11-19T20:37:28.870559-08:00"
+    created: "2024-12-12T14:22:56.626909-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2266,6 +2988,132 @@ entries:
       category: E-Learning
       images: |
         - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r6
+        - name: moodle
+          image: docker.io/bitnami/moodle:4.5.1-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 4.5.1
+    created: "2024-12-12T14:22:56.68117-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Moodle(TM) LMS is an open source online Learning Management System
+      widely used at universities, schools, and corporations. It is modular and highly
+      adaptable to any type of online learning.
+    digest: 9d0e7c7b212d6d3d1c874e9e20cec6df353ef4f1ce8a220dfc6d552143b2c1da
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/moodle/img/moodle-stack-220x234.png
+    keywords:
+    - moodle
+    - learning
+    - php
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: moodle
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/moodle
+    urls:
+    - /repo/moodle-25.1.0.tgz
+    version: 25.1.0
+  - annotations:
+      category: E-Learning
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r6
+        - name: moodle
+          image: docker.io/bitnami/moodle:4.5.1-debian-12-r0
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 4.5.1
+    created: "2024-12-12T14:22:56.67813-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Moodle(TM) LMS is an open source online Learning Management System
+      widely used at universities, schools, and corporations. It is modular and highly
+      adaptable to any type of online learning.
+    digest: 8a5e231d9fdae74039a0c5bb4dc1dd9dc96f0467c4cb0f158a2b00e7754558e6
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/moodle/img/moodle-stack-220x234.png
+    keywords:
+    - moodle
+    - learning
+    - php
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: moodle
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/moodle
+    urls:
+    - /repo/moodle-25.0.2.tgz
+    version: 25.0.2
+  - annotations:
+      category: E-Learning
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r3
+        - name: moodle
+          image: docker.io/bitnami/moodle:4.5.0-debian-12-r5
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 4.5.0
+    created: "2024-12-12T14:22:56.675451-08:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Moodle(TM) LMS is an open source online Learning Management System
+      widely used at universities, schools, and corporations. It is modular and highly
+      adaptable to any type of online learning.
+    digest: 6062b52dd0a0eb996860eab68bf85d5bd1fd82cad6b07573b293d7352f5071fa
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/moodle/img/moodle-stack-220x234.png
+    keywords:
+    - moodle
+    - learning
+    - php
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: moodle
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/moodle
+    urls:
+    - /repo/moodle-25.0.1.tgz
+    version: 25.0.1
+  - annotations:
+      category: E-Learning
+      images: |
+        - name: apache-exporter
           image: docker.io/bitnami/apache-exporter:1.0.8-debian-12-r6
         - name: moodle
           image: docker.io/bitnami/moodle:4.4.1-debian-12-r6
@@ -2274,7 +3122,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.4.1
-    created: "2024-11-19T20:37:28.917395-08:00"
+    created: "2024-12-12T14:22:56.672521-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2316,7 +3164,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.4.0
-    created: "2024-11-19T20:37:28.914919-08:00"
+    created: "2024-12-12T14:22:56.670061-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2358,7 +3206,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.3
-    created: "2024-11-19T20:37:28.912215-08:00"
+    created: "2024-12-12T14:22:56.6672-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2400,7 +3248,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.0
-    created: "2024-11-19T20:37:28.909538-08:00"
+    created: "2024-12-12T14:22:56.664796-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2442,7 +3290,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.3.0
-    created: "2024-11-19T20:37:28.906852-08:00"
+    created: "2024-12-12T14:22:56.662353-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2484,7 +3332,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.2.2
-    created: "2024-11-19T20:37:28.904489-08:00"
+    created: "2024-12-12T14:22:56.659954-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2526,7 +3374,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.2.2
-    created: "2024-11-19T20:37:28.901473-08:00"
+    created: "2024-12-12T14:22:56.657667-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2561,7 +3409,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.2.0
-    created: "2024-11-19T20:37:28.899154-08:00"
+    created: "2024-12-12T14:22:56.655512-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2596,7 +3444,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 4.1.2
-    created: "2024-11-19T20:37:28.896554-08:00"
+    created: "2024-12-12T14:22:56.653101-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2631,7 +3479,7 @@ entries:
       category: E-Learning
     apiVersion: v2
     appVersion: 4.0.4
-    created: "2024-11-19T20:37:28.894105-08:00"
+    created: "2024-12-12T14:22:56.650804-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -2667,11 +3515,91 @@ entries:
       category: CRM
       images: |
         - name: odoo
+          image: docker.io/bitnami/odoo:18.0.20241205-debian-12-r0
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 18.0.20241205
+    created: "2024-12-12T14:22:56.719716-08:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 16.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Odoo is an open source ERP and CRM platform, formerly known as OpenERP,
+      that can connect a wide variety of business operations such as sales, supply
+      chain, finance, and project management.
+    digest: bc5d2a17ec60215a89cb57f2cfcf44a67659e0d2536a4dac29fdca577b2ca5eb
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/odoo/img/odoo-stack-220x234.png
+    keywords:
+    - odoo
+    - crm
+    - www
+    - http
+    - web
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: odoo
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/odoo
+    urls:
+    - /repo/odoo-28.1.0.tgz
+    version: 28.1.0
+  - annotations:
+      category: CRM
+      images: |
+        - name: odoo
+          image: docker.io/bitnami/odoo:18.0.20241205-debian-12-r0
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 18.0.20241205
+    created: "2024-12-12T14:22:56.716347-08:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 16.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Odoo is an open source ERP and CRM platform, formerly known as OpenERP,
+      that can connect a wide variety of business operations such as sales, supply
+      chain, finance, and project management.
+    digest: 08ae2526452e0b6c9d4484317b32f9cca600732adf846d202418ec10a2b85c55
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/odoo/img/odoo-stack-220x234.png
+    keywords:
+    - odoo
+    - crm
+    - www
+    - http
+    - web
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: odoo
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/odoo
+    urls:
+    - /repo/odoo-28.0.3.tgz
+    version: 28.0.3
+  - annotations:
+      category: CRM
+      images: |
+        - name: odoo
           image: docker.io/bitnami/odoo:17.0.20240705-debian-12-r4
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 17.0.20240705
-    created: "2024-11-19T20:37:28.95364-08:00"
+    created: "2024-12-12T14:22:56.713259-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2711,7 +3639,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 17.0.20240505
-    created: "2024-11-19T20:37:28.950147-08:00"
+    created: "2024-12-12T14:22:56.710425-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2751,7 +3679,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 17.0.20240305
-    created: "2024-11-19T20:37:28.947241-08:00"
+    created: "2024-12-12T14:22:56.707335-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2791,7 +3719,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 17.0.20240305
-    created: "2024-11-19T20:37:28.944116-08:00"
+    created: "2024-12-12T14:22:56.704619-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2831,7 +3759,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 17.0.20231105
-    created: "2024-11-19T20:37:28.940979-08:00"
+    created: "2024-12-12T14:22:56.701743-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2871,7 +3799,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.20231015
-    created: "2024-11-19T20:37:28.937858-08:00"
+    created: "2024-12-12T14:22:56.698873-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2911,7 +3839,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.20230915
-    created: "2024-11-19T20:37:28.935052-08:00"
+    created: "2024-12-12T14:22:56.696372-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2951,7 +3879,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.20230915
-    created: "2024-11-19T20:37:28.931914-08:00"
+    created: "2024-12-12T14:22:56.693697-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2991,7 +3919,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.20230915
-    created: "2024-11-19T20:37:28.928873-08:00"
+    created: "2024-12-12T14:22:56.691222-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3028,7 +3956,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.20230515
-    created: "2024-11-19T20:37:28.925939-08:00"
+    created: "2024-12-12T14:22:56.688282-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3065,7 +3993,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 16.0.20230415
-    created: "2024-11-19T20:37:28.922834-08:00"
+    created: "2024-12-12T14:22:56.686007-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3102,7 +4030,7 @@ entries:
       category: CRM
     apiVersion: v2
     appVersion: 16.0.20221015
-    created: "2024-11-19T20:37:28.920193-08:00"
+    created: "2024-12-12T14:22:56.683482-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3140,7 +4068,7 @@ entries:
       category: HumanResourceManagement
     apiVersion: v2
     appVersion: 4.9.0-0
-    created: "2024-11-19T20:37:28.955977-08:00"
+    created: "2024-12-12T14:22:56.722184-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3187,7 +4115,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.2.0
-    created: "2024-11-19T20:37:28.971436-08:00"
+    created: "2024-12-12T14:22:56.73683-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3231,7 +4159,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.1.2
-    created: "2024-11-19T20:37:28.968907-08:00"
+    created: "2024-12-12T14:22:56.734072-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3277,7 +4205,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.1.2
-    created: "2024-11-19T20:37:28.966246-08:00"
+    created: "2024-12-12T14:22:56.731795-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3323,7 +4251,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.1.2
-    created: "2024-11-19T20:37:28.963557-08:00"
+    created: "2024-12-12T14:22:56.729228-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3362,7 +4290,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.1.2
-    created: "2024-11-19T20:37:28.960886-08:00"
+    created: "2024-12-12T14:22:56.726985-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3401,7 +4329,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 8.1.1
-    created: "2024-11-19T20:37:28.958566-08:00"
+    created: "2024-12-12T14:22:56.724352-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3449,7 +4377,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.13.4
-    created: "2024-11-19T20:37:28.989832-08:00"
+    created: "2024-12-12T14:22:56.753868-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3464,7 +4392,7 @@ entries:
     description: DEPRECATED SuiteCRM is a completely open source, enterprise-grade
       Customer Relationship Management (CRM) application. SuiteCRM is a fork of the
       popular SugarCRM application.
-    digest: 5839d412c339de0522e7a666d42827771ede93e4d6983a334137e60f9da9fc27
+    digest: 8dd3bb9fbe209832417b0c93e6089ba42e76f1e94ac593dfc1288276a99c315e
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/suitecrm/img/suitecrm-stack-220x234.png
     keywords:
@@ -3491,7 +4419,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.13.4
-    created: "2024-11-19T20:37:28.98677-08:00"
+    created: "2024-12-12T14:22:56.751263-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3534,7 +4462,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.13.4
-    created: "2024-11-19T20:37:28.984374-08:00"
+    created: "2024-12-12T14:22:56.748951-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3577,7 +4505,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.13.4
-    created: "2024-11-19T20:37:28.981759-08:00"
+    created: "2024-12-12T14:22:56.7467-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3613,7 +4541,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.13.3
-    created: "2024-11-19T20:37:28.97933-08:00"
+    created: "2024-12-12T14:22:56.744208-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3649,7 +4577,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.13.2
-    created: "2024-11-19T20:37:28.974047-08:00"
+    created: "2024-12-12T14:22:56.739445-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3685,7 +4613,7 @@ entries:
       category: CRM
     apiVersion: v2
     appVersion: 7.12.7
-    created: "2024-11-19T20:37:28.976373-08:00"
+    created: "2024-12-12T14:22:56.74201-08:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3720,7 +4648,40 @@ entries:
   wiki:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-11-19T20:37:28.990653-08:00"
+    created: "2024-12-12T14:22:56.755424-08:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.10.14
+    description: The most powerful and extensible open source Wiki software.
+    digest: d4434fb6547eef7a45c13c929e2ab8ae324e10c37038bddbf34df7dd04df1c31
+    home: https://wiki.js.org
+    icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
+    keywords:
+    - wiki
+    - documentation
+    - knowledge base
+    - docs
+    - reference
+    - editor
+    maintainers:
+    - email: github@ngpixel.com
+      name: Nicolas Giard
+      url: https://github.com/NGPixel
+    - email: james@fuziontech.net
+      name: James Greenhill
+      url: https://github.com/fuziontech
+    name: wiki
+    sources:
+    - https://github.com/Requarks/wiki
+    type: application
+    urls:
+    - /repo/wiki-2.2.22.tgz
+    version: 2.2.22
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-12-12T14:22:56.754654-08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3756,6 +4717,156 @@ entries:
       category: CMS
       images: |
         - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r6
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r34
+        - name: wordpress
+          image: docker.io/bitnami/wordpress:6.7.1-debian-12-r6
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 6.7.1
+    created: "2024-12-12T14:22:56.811714-08:00"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.x.x
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: WordPress is the world's most popular blogging and content management
+      platform. Powerful yet simple, everyone from students to global corporations
+      use it to build beautiful, functional websites.
+    digest: e49f75e729a609bf9455809860b480024299dc21345c6e8e563691532f94433d
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/wordpress
+    urls:
+    - /repo/wordpress-24.1.2.tgz
+    version: 24.1.2
+  - annotations:
+      category: CMS
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r6
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+        - name: wordpress
+          image: docker.io/bitnami/wordpress:6.7.1-debian-12-r4
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 6.7.1
+    created: "2024-12-12T14:22:56.807723-08:00"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.x.x
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: WordPress is the world's most popular blogging and content management
+      platform. Powerful yet simple, everyone from students to global corporations
+      use it to build beautiful, functional websites.
+    digest: 17e797a86578626794715b77569d259769ddb0e0f6bbc50cf9d82dfbd8f018a9
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/wordpress
+    urls:
+    - /repo/wordpress-24.0.11.tgz
+    version: 24.0.11
+  - annotations:
+      category: CMS
+      images: |
+        - name: apache-exporter
+          image: docker.io/bitnami/apache-exporter:1.0.9-debian-12-r4
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r33
+        - name: wordpress
+          image: docker.io/bitnami/wordpress:6.7.1-debian-12-r3
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 6.7.1
+    created: "2024-12-12T14:22:56.803537-08:00"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.x.x
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: WordPress is the world's most popular blogging and content management
+      platform. Powerful yet simple, everyone from students to global corporations
+      use it to build beautiful, functional websites.
+    digest: 797fa999d47decbfa2f23807380d079da08256364d2465b6a96095a8950b8250
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/wordpress
+    urls:
+    - /repo/wordpress-24.0.10.tgz
+    version: 24.0.10
+  - annotations:
+      category: CMS
+      images: |
+        - name: apache-exporter
           image: docker.io/bitnami/apache-exporter:1.0.8-debian-12-r6
         - name: os-shell
           image: docker.io/bitnami/os-shell:12-debian-12-r27
@@ -3764,7 +4875,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.6.1
-    created: "2024-11-19T20:37:29.040916-08:00"
+    created: "2024-12-12T14:22:56.799205-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -3814,7 +4925,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.5.3
-    created: "2024-11-19T20:37:29.036178-08:00"
+    created: "2024-12-12T14:22:56.795309-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -3864,7 +4975,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.5.2
-    created: "2024-11-19T20:37:29.031695-08:00"
+    created: "2024-12-12T14:22:56.791434-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -3914,7 +5025,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.4.3
-    created: "2024-11-19T20:37:29.027415-08:00"
+    created: "2024-12-12T14:22:56.787702-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -3964,7 +5075,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.4.1
-    created: "2024-11-19T20:37:29.022919-08:00"
+    created: "2024-12-12T14:22:56.783687-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4014,7 +5125,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.3.2
-    created: "2024-11-19T20:37:29.018668-08:00"
+    created: "2024-12-12T14:22:56.779962-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4064,7 +5175,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.3.1
-    created: "2024-11-19T20:37:29.014455-08:00"
+    created: "2024-12-12T14:22:56.776666-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4114,7 +5225,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.3.1
-    created: "2024-11-19T20:37:29.010262-08:00"
+    created: "2024-12-12T14:22:56.77313-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4164,7 +5275,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.3.1
-    created: "2024-11-19T20:37:29.006007-08:00"
+    created: "2024-12-12T14:22:56.769467-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4207,7 +5318,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.2.2
-    created: "2024-11-19T20:37:29.001622-08:00"
+    created: "2024-12-12T14:22:56.765813-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4250,7 +5361,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.2.0
-    created: "2024-11-19T20:37:28.997915-08:00"
+    created: "2024-12-12T14:22:56.762562-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4293,7 +5404,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 6.1.0
-    created: "2024-11-19T20:37:28.994359-08:00"
+    created: "2024-12-12T14:22:56.759018-08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4332,4 +5443,4 @@ entries:
     urls:
     - /repo/wordpress-15.2.13.tgz
     version: 15.2.13
-generated: "2024-11-19T20:37:28.765555-08:00"
+generated: "2024-12-12T14:22:56.438639-08:00"
