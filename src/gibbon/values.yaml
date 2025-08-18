@@ -8,11 +8,11 @@
 image:
   repository: clouve/gibbon
   pullPolicy: IfNotPresent
-  tag: "28.0.01-1"
+  tag: "29.0.00-1"
 
 existingSecret: ""
 gibbonProtocol: "http"
-gibbonHostname: "gibbon.local"
+hostname: "gibbon.local"
 adminTitle: ""
 adminFirstName: ""
 adminLastName: ""
